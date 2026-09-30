@@ -1,0 +1,34 @@
+*.iml
+.gradle
+gradle/caches/
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+debug.keystore
+gradle/.tmp/
+
+# Ignore Gradle build caches and local system adjustments
+app/build/
+.idea/
+
+gradle/jdks/
+gradle/wrapper/dists/
+
+# Ignore local environmental secret variable configuration files
+
+# Ignore device builds and runtime snapshots
+*.apk
+*.aar
+

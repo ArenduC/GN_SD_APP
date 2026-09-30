@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- S-Pipe Track Layer (Semi-transparent coral) -->
+    <!-- Top Horizontal Track -->
+    <path
+        android:fillColor="#F17E83"
+        android:fillAlpha="0.55"
+        android:pathData="M 16,2 L 84,2 A 14,14 0 0,1 98,16 A 14,14 0 0,1 84,30 L 16,30 A 14,14 0 0,1 2,16 A 14,14 0 0,1 16,2 Z" />
+
+    <!-- Left Vertical Track -->
+    <path
+        android:fillColor="#F17E83"
+        android:fillAlpha="0.55"
+        android:pathData="M 16,16 L 16,50 A 14,14 0 0,1 2,36 A 14,14 0 0,1 16,22 Z" />
+
+    <path
+        android:fillColor="#F17E83"
+        android:fillAlpha="0.55"
+        android:pathData="M 2,16 L 30,16 L 30,50 L 2,50 Z" />
+
+    <!-- Middle Horizontal Track -->
+    <path
+        android:fillColor="#F17E83"
+        android:fillAlpha="0.55"
+        android:pathData="M 16,36 L 84,36 A 14,14 0 0,1 98,50 A 14,14 0 0,1 84,64 L 16,64 A 14,14 0 0,1 2,50 A 14,14 0 0,1 16,36 Z" />
+
+    <!-- Right Vertical Track -->
+    <path
+        android:fillColor="#F17E83"
+        android:fillAlpha="0.55"
+        android:pathData="M 70,50 L 98,50 L 98,84 L 70,84 Z" />
+
+    <!-- Bottom Horizontal Track -->
+    <path
+        android:fillColor="#F17E83"
+        android:fillAlpha="0.55"
+        android:pathData="M 16,70 L 84,70 A 14,14 0 0,1 98,84 A 14,14 0 0,1 84,98 L 16,98 A 14,14 0 0,1 2,84 A 14,14 0 0,1 16,70 Z" />
+
+    <!-- 9 Solid Coral Circles (Grid Nodes) -->
+    <!-- Top Row -->
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 16,16 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 50,16 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 84,16 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+
+    <!-- Middle Row -->
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 16,50 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 50,50 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 84,50 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+
+    <!-- Bottom Row -->
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 16,84 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 50,84 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+    <path
+        android:fillColor="#EE6066"
+        android:pathData="M 84,84 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0" />
+</vector>
